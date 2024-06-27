@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.tensor_flow_example" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryVariant">@color/brown_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/brown</item>
+        <item name="colorSecondaryVariant">@color/brown_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/brown</item>
+    </style>
+
+    <style name="Theme.tensor_flow_example" parent="Base.Theme.tensor_flow_example" />
+</resources>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\chat_message_item.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\chat_message_item.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\fragment_camera.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\appbar.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\appbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\info_bottom_sheet.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\info_bottom_sheet.xml"
+    },
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\second_main.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\second_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-45:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\UZ1\\.gradle\\daemon\\8.4\\org.tensorflow.lite.examples.objectdetection.app-main-48:\\layout\\activity_settings.xml"
+    }
+]

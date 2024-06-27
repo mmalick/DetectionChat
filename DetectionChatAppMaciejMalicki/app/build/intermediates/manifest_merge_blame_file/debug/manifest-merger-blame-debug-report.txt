@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    ~ Copyright 2022 The TensorFlow Authors. All Rights Reserved.
+4    ~
+5    ~ Licensed under the Apache License, Version 2.0 (the "License");
+6    ~ you may not use this file except in compliance with the License.
+7    ~ You may obtain a copy of the License at
+8    ~
+9    ~       http://www.apache.org/licenses/LICENSE-2.0
+10    ~
+11    ~ Unless required by applicable law or agreed to in writing, software
+12    ~ distributed under the License is distributed on an "AS IS" BASIS,
+13    ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14    ~ See the License for the specific language governing permissions and
+15    ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    xmlns:dist="http://schemas.android.com/apk/distribution"
+19    package="org.tensorflow.lite.examples.objectdetection"
+20    android:versionCode="1"
+21    android:versionName="1.0.0" >
+22
+23    <uses-sdk
+24        android:minSdkVersion="21"
+24-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml
+25        android:targetSdkVersion="34" />
+25-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml
+26
+27    <!-- Enable instant app support -->
+28    <dist:module dist:instant="true" />
+28-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:24:5-40
+28-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:24:18-37
+29
+30    <!-- Declare features -->
+31    <uses-feature android:name="android.hardware.camera" />
+31-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:27:5-60
+31-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:27:19-57
+32
+33    <!-- Declare permissions -->
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:30:5-65
+34-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:30:22-62
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:31:5-67
+35-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:31:22-64
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+37    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+38    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+39
+40    <application
+40-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:33:5-76:19
+41        android:allowBackup="true"
+41-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:37:9-35
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.6.0] C:\Users\krzys\.gradle\caches\transforms-3\0f6506036b090cd4938e3247e19bd290\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:34:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:36:9-41
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:35:9-54
+47        android:taskAffinity=""
+47-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:38:9-32
+48        android:testOnly="true" >
+49        <activity
+49-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:41:9-60:20
+50            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+50-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:42:13-41
+51            android:clearTaskOnLaunch="true"
+51-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:43:13-45
+52            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+52-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:49:13-91
+53            android:exported="true"
+53-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:45:13-36
+54            android:icon="@mipmap/ic_launcher"
+54-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:46:13-47
+55            android:resizeableActivity="true"
+55-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:48:13-46
+56            android:rotationAnimation="seamless"
+56-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:47:13-49
+57            android:theme="@style/AppTheme" >
+57-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:44:13-44
+58
+59            <!-- Main app intent filter -->
+60            <intent-filter>
+60-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:53:13-56:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:54:17-69
+61-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:54:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:55:17-77
+63-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:55:27-74
+64            </intent-filter>
+65
+66            <!-- Declare notch support -->
+67            <meta-data
+67-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:59:13-83
+68                android:name="android.notch_support"
+68-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:59:24-60
+69                android:value="true" />
+69-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:59:61-81
+70        </activity>
+71
+72        <!-- Deklaracja nowej aktywności -->
+73        <activity
+73-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:63:9-66:20
+74            android:name="org.tensorflow.lite.examples.objectdetection.SecondActivity"
+74-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:63:19-49
+75            android:exported="true"
+75-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:65:13-36
+76            android:theme="@style/AppTheme" >
+76-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:64:13-44
+77        </activity>
+78
+79        <!-- Dodanie aktywności ChatActivity i SettingsActivity -->
+80        <activity
+80-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:69:9-71:38
+81            android:name="org.tensorflow.lite.examples.objectdetection.ChatActivity"
+81-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:70:13-41
+82            android:exported="true" />
+82-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:71:13-36
+83        <activity
+83-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:73:9-75:38
+84            android:name="org.tensorflow.lite.examples.objectdetection.SettingsActivity"
+84-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:74:13-45
+85            android:exported="true" />
+85-->C:\Users\krzys\Desktop\tensor_flow_example\app\src\main\AndroidManifest.xml:75:13-36
+86
+87        <uses-library
+87-->[androidx.window:window:1.0.0-alpha09] C:\Users\krzys\.gradle\caches\transforms-3\277260d2dc4f35e7aba4840d40d73fda\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+88            android:name="androidx.window.extensions"
+88-->[androidx.window:window:1.0.0-alpha09] C:\Users\krzys\.gradle\caches\transforms-3\277260d2dc4f35e7aba4840d40d73fda\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0-alpha09] C:\Users\krzys\.gradle\caches\transforms-3\277260d2dc4f35e7aba4840d40d73fda\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+90        <uses-library
+90-->[androidx.window:window:1.0.0-alpha09] C:\Users\krzys\.gradle\caches\transforms-3\277260d2dc4f35e7aba4840d40d73fda\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+91            android:name="androidx.window.sidecar"
+91-->[androidx.window:window:1.0.0-alpha09] C:\Users\krzys\.gradle\caches\transforms-3\277260d2dc4f35e7aba4840d40d73fda\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0-alpha09] C:\Users\krzys\.gradle\caches\transforms-3\277260d2dc4f35e7aba4840d40d73fda\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+93
+94        <service
+94-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\krzys\.gradle\caches\transforms-3\a8fdc7aeb17ec73d8fc706497ad25728\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+95            android:name="androidx.camera.core.impl.MetadataHolderService"
+95-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\krzys\.gradle\caches\transforms-3\a8fdc7aeb17ec73d8fc706497ad25728\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+96            android:enabled="false"
+96-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\krzys\.gradle\caches\transforms-3\a8fdc7aeb17ec73d8fc706497ad25728\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+97            android:exported="false" >
+97-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\krzys\.gradle\caches\transforms-3\a8fdc7aeb17ec73d8fc706497ad25728\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+98            <meta-data
+98-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\krzys\.gradle\caches\transforms-3\a8fdc7aeb17ec73d8fc706497ad25728\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+99                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+99-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\krzys\.gradle\caches\transforms-3\a8fdc7aeb17ec73d8fc706497ad25728\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+100                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+100-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\krzys\.gradle\caches\transforms-3\a8fdc7aeb17ec73d8fc706497ad25728\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+101        </service>
+102
+103        <provider
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krzys\.gradle\caches\transforms-3\e59c33f5567ebfc6d76fdff5d89a7be9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+104            android:name="androidx.startup.InitializationProvider"
+104-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krzys\.gradle\caches\transforms-3\e59c33f5567ebfc6d76fdff5d89a7be9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:27:13-67
+105            android:authorities="org.tensorflow.lite.examples.objectdetection.androidx-startup"
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krzys\.gradle\caches\transforms-3\e59c33f5567ebfc6d76fdff5d89a7be9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:28:13-68
+106            android:exported="false" >
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krzys\.gradle\caches\transforms-3\e59c33f5567ebfc6d76fdff5d89a7be9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:29:13-37
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krzys\.gradle\caches\transforms-3\e59c33f5567ebfc6d76fdff5d89a7be9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krzys\.gradle\caches\transforms-3\e59c33f5567ebfc6d76fdff5d89a7be9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krzys\.gradle\caches\transforms-3\e59c33f5567ebfc6d76fdff5d89a7be9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+110        </provider>
+111    </application>
+112
+113</manifest>
