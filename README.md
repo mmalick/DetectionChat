@@ -1,7 +1,7 @@
 # AI Chat & Object Detection App
 
 ## Overview
-This Android application integrates two powerful AI functionalities:
+This Android application integrates two AI functionalities:
 - **Real-time AI Chat:** Engage in interactive conversations with an AI model via the Ollama API. Enjoy streaming responses, customizable settings, and a dynamic chat interface.
 - **On-device Object Detection:** Leverage TensorFlow Lite to detect objects in images and overlay bounding boxes with labels and confidence scores.
 
